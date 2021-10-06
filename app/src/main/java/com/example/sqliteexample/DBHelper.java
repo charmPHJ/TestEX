@@ -39,4 +39,5 @@ public class DBHelper extends SQLiteOpenHelper {
         db.execSQL ("INSERT INTO TodoList (title, content, writeDate) VALUES('" + _title + "','" + _content + "', '" + _writeDate + "');");
    }
 
+   ///git
 }
